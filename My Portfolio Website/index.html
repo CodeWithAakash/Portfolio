@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <link rel="icon" href="icon.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Aakash Sharma - Portfolio</title>
+</head>
+
+<body onload="loadingfunction()">
+
+    <!-- preloader div  -->
+
+    <div id="loading"></div>
+
+    <!-- scroll to top button  -->
+
+    <div id="topscroll">
+        <a href="#"><i class="fas fa-chevron-up"></i></a>
+    </div>
+
+    <!-- header section  -->
+
+    <header>
+
+        <input type="checkbox" id="menu-checkbox">
+
+        <div class="logo">
+            <h1>Portfo<span>lio.</span></h1>
+        </div>
+        <div id="nav-links">
+            <a href="#" id="link-btn">Home</a>
+            <a href="#about" id="link-btn2">About</a>
+            <a href="#service" id="link-btn3">Serivce</a>
+            <a href="#skills" id="link-btn4">Skills</a>
+            <a href="#contact" id="link-btn5">contact</a>
+        </div>
+
+        <label for="menu-checkbox" id="menu-bar">
+            <div class="spinner top"></div>
+            <div class="spinner middle"></div>
+            <div class="spinner bottom"></div>
+        </label>
+
+    </header>
+
+
+    <!-- main section or home section  -->
+
+    <div class="main-div">
+
+        <div class="main-section">
+            <div class="main-text">
+                <div class="text-1">Hi, I'am</div>
+                <div class="text-2">Aakash Sharma</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+            </div>
+
+            <div class="main-photo">
+                <div class="photodiv">
+                    <img class="mainimg" src="img.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- *********************************** -->
+
+    <!-- about section  -->
+
+    <a name="about"></a>
+    <div class="about-div">
+        <div class="about-head">
+            <h1>About me</h1>
+            <h2>who I am</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-image-div" data-aos="fade-down" data-aos-offset="200" data-aos-delay="30"
+                data-aos-duration="1000">
+                <div class="about-image"></div>
+                <div class="image-bottom"></div>
+            </div>
+            <div class="about-main-text" data-aos="fade-down" data-aos-offset="200" data-aos-delay="100"
+                data-aos-duration="1000">
+                <p class="text-head">I'm Aakash and I'm a <span class="typing2"></span></p>
+                <P class="text-content">Hello Everyone I am Aakash Sharma Qualified B.Tech in Computer Science and
+                    Engineering. I have learned programming languages like C, C++, Python, Java-Script, HTML, CSS, and
+                    PHP. I have made different major projects on Web Development which results in enhancing my Coding
+                    skills.</P>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********************************** -->
+
+    <!-- Serivce section  -->
+
+    <a name="service"></a>
+    <div class="service-div">
+        <div class="service-head">
+            <h1>My Services</h1>
+            <h2>what I provide</h2>
+        </div>
+        <div class="service-content">
+            <div class="service-box" data-aos="fade-down" data-aos-offset="200" data-aos-delay="40"
+                data-aos-duration="1000">
+                <i class="fas fa-paint-brush"></i>
+                <h1>Web/ App Design</h1>
+                <p>I know Web and App Designing. I value clean design patterns, and thoughtful interactions.</p>
+            </div>
+
+            <div class="service-box" data-aos="fade-down" data-aos-offset="200" data-aos-delay="40"
+                data-aos-duration="1000">
+                <i class="fas fa-code"></i>
+                <h1>programming</h1>
+                <p>I learned different programming languages like C, C++, Python, JAVA, Java-Script, HTML, CSS, PHP.</p>
+            </div>
+
+            <div class="service-box" data-aos="fade-down" data-aos-offset="200" data-aos-delay="40"
+                data-aos-duration="1000">
+                <i class="fas fa-cogs"></i>
+                <h1>Web Development</h1>
+                <p>I Learned full front-end and back-end Structure and Designing for web development.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********************************** -->
+
+    <!-- Skills section -->
+    <a name="skills"></a>
+    <div class="skills-div">
+        <div class="skills-head">
+            <h1>My Skills</h1>
+            <h2>what I know</h2>
+        </div>
+        <div class="skills-content">
+            <div class="skills-main-text" data-aos="fade-down" data-aos-offset="200" data-aos-delay="40"
+                data-aos-duration="1000">
+                <h1>Profesional Skills</h1>
+                <p>I have learned programming languages like C# , C++ , Python , Java Script , HTML , CSS , and PHP. I
+                    have made different major projects on Web Development, I have learnt to work on Adobe Photoshop ,
+                    Autocad , Microsoft office , Web Development , and I am also good in Communication Skills.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div class="skills-bars" data-aos="fade-down" data-aos-offset="200" data-aos-delay="10"
+                data-aos-duration="1000">
+                <div class="bar-div" data-aos="fade-down" data-aos-offset="50" data-aos-delay="10"
+                    data-aos-duration="1000">
+                    <div class="bars one">
+                        <h1>HTML</h1>
+                    </div>
+                </div>
+
+                <div class="bar-div" data-aos="fade-down" data-aos-offset="50" data-aos-delay="30"
+                    data-aos-duration="1000">
+                    <div class="bars two">
+                        <h1>CSS</h1>
+                    </div>
+                </div>
+
+                <div class="bar-div" data-aos="fade-down" data-aos-offset="50" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div class="bars three">
+                        <h1>javascript</h1>
+                    </div>
+                </div>
+
+                <div class="bar-div" data-aos="fade-down" data-aos-offset="50" data-aos-delay="70"
+                    data-aos-duration="1000">
+                    <div class="bars four">
+                        <h1>C#/C++</h1>
+                    </div>
+                </div>
+
+                <div class="bar-div" data-aos="fade-down" data-aos-offset="50" data-aos-delay="90"
+                    data-aos-duration="1000">
+                    <div class="bars five">
+                        <h1>Python</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********************************** -->
+
+    <!-- contact section  -->
+    <a name="contact"></a>
+    <div class="contact-div">
+        <div class="contact-head">
+            <h1>Contact me</h1>
+            <h2>get in touch</h2>
+        </div>
+        <div class="contact-section">
+            <div class="contact-info" data-aos="fade-down" data-aos-offset="200" data-aos-delay="10"
+                data-aos-duration="1000">
+                <h1>Contact Info</h1>
+                <section><i class="fas fa-map-marker-alt"></i>
+                    <p>Ghaziabad, Uttar-Pradesh, India</p>
+                </section>
+                <section><i class="fas fa-user"></i>
+                    <p>Aakash Sharma</p>
+                </section>
+                <div class="contact-social-links">
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="contact-form" data-aos="fade-down" data-aos-offset="200" data-aos-delay="10"
+                data-aos-duration="1000" data-aos-once="true">
+                <div class="form-head">
+                    <h1>Send a Message</h1>
+                </div>
+                <div class="main-form">
+                    <form id="contact_form" autocomplete="off">
+                        <div class="input-box1">
+                            <div class="input-box">
+                                <input type="text" name="firstname" required>
+                                <span>First Name</span>
+                            </div>
+
+                            <div class="input-box">
+                                <input type="text" name="lastname" required>
+                                <span>Last Name</span>
+                            </div>
+                        </div>
+
+                        <div class="input-box2">
+                            <div class="input-box">
+                                <input type="text" name="email" required>
+                                <span>Email Address</span>
+                            </div>
+
+                            <div class="input-box">
+                                <input type="tel" name="phone" required>
+                                <span>Mobile Number</span>
+                            </div>
+                        </div>
+
+                        <div class="input-box3">
+                            <div class="textarea-input-box">
+                                <textarea name="message" required></textarea>
+                                <span>Write Your Message Here...</span>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" value="Submit">
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********************************** -->
+
+    <!-- footer section  -->
+
+    <footer>
+        <p>Created By <a href="#">Aakash Sharma </a>| Copyright &copy; 2021 All Right Reserved</p>
+    </footer>
+
+    <!-- ********************************** -->
+
+
+    <!-- java script section -->
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('#contact_form').submit(function(e) {
+            e.preventDefault();
+            var form = $(this);
+            var formData = $(this).serialize();
+            $.ajax({
+                url: 'submit_data.php',
+                type: 'POST',
+                data: formData,
+                success: function(response) {
+                    if (response == "Length") {
+                        Swal.fire({
+                            icon: "warning",
+                            title: "Oops...",
+                            text: "Mobile number should be of 10 digit!!!",
+                            showConfirmButton: false,
+                            timer: 1200,
+                        })
+                    } else if (response == "Not_send") {
+                        Swal.fire({
+                            icon: "error",
+                            title: "Oops...",
+                            text: "Something went Wrong!!! Try again after some time...",
+                            showConfirmButton: false,
+                            timer: 1200,
+                        }).then(() => {
+                            window.location.href = "index.php";
+                        })
+                    } else if (response == "Send") {
+                        Swal.fire({
+                            icon: "success",
+                            title: "Wow...",
+                            text: "Message Sent successfully!!!",
+                            showConfirmButton: false,
+                            timer: 1200,
+                        }).then(() => {
+                            window.location.href = "index.php";
+                        })
+                    }
+                }
+            })
+        })
+
+    });
+    </script>
+
+
+    <script>
+    // typing text animation script
+    var typed = new Typed(".typing", {
+        strings: ["Web Developer.", "Computer Programmer.", "App Designer.", "Data Analyst.",
+            "Professional Typist."
+        ],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing2", {
+        strings: ["Web Developer.", "Computer Programmer.", "App Designer.", "Data Analyst.",
+            "Professional Typist."
+        ],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    </script>
+
+    <script>
+    // animate on scroll script code 
+    AOS.init();
+    </script>
+
+    <script>
+    // preloader funtion 
+    var preloader = document.getElementById("loading");
+    const loadingfunction = () => {
+        preloader.style.display = "none";
+    }
+    </script>
+
+    <script>
+    // script for header sticky
+    window.addEventListener("scroll", function() {
+        var topscroll = document.querySelector("#topscroll");
+        if (window.scrollY > 0) {
+            topscroll.style.display = "block";
+        } else {
+            topscroll.style.display = "none";
+        }
+    });
+    </script>
+
+    <script>
+    // script for header sticky
+    window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    </script>
+
+
+    <!-- uncheck to the checkbox javascript  -->
+
+    <script>
+    // script for links to uncheck checkbox
+    var linkbtn = document.getElementById("link-btn");
+    var menucheckbox = document.getElementById("menu-checkbox");
+    linkbtn.addEventListener("click", function() {
+        menucheckbox.checked = false;
+    });
+    </script>
+
+    <script>
+    // script for links to uncheck checkbox
+    var linkbtn = document.getElementById("link-btn2");
+    var menucheckbox = document.getElementById("menu-checkbox");
+    linkbtn.addEventListener("click", function() {
+        menucheckbox.checked = false;
+    });
+    </script>
+
+    <script>
+    // script for links to uncheck checkbox
+    var linkbtn = document.getElementById("link-btn3");
+    var menucheckbox = document.getElementById("menu-checkbox");
+    linkbtn.addEventListener("click", function() {
+        menucheckbox.checked = false;
+    });
+    </script>
+
+    <script>
+    // script for links to uncheck checkbox
+    var linkbtn = document.getElementById("link-btn4");
+    var menucheckbox = document.getElementById("menu-checkbox");
+    linkbtn.addEventListener("click", function() {
+        menucheckbox.checked = false;
+    });
+    </script>
+
+    <script>
+    // script for links to uncheck checkbox
+    var linkbtn = document.getElementById("link-btn5");
+    var menucheckbox = document.getElementById("menu-checkbox");
+    linkbtn.addEventListener("click", function() {
+        menucheckbox.checked = false;
+    });
+    </script>
+
+
+    <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".service-box"), {
+        max: 25,
+        speed: 400
+    });
+    </script>
+
+    <!-- ********************************************** -->
+
+
+
+</body>
+
+</html>
